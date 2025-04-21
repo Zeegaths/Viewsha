@@ -7,7 +7,7 @@ import UserForm from "./components/UserForm";
 import AgentForm from "./components/AgentForm";
 import FarmerForm from "./Dashboards/RegisterFarmer";
 import ProductList from "./components/ProductList";
-import UserType from "./components/UserType";
+
 import OrderStatus from "./components/OrderStatus";
 import { AuthProvider } from "./lib/AuthContext";
 import Explore from "./components/Explore";
@@ -40,10 +40,6 @@ const router = createBrowserRouter([
     element: <FarmerForm />,
   },
 
-  {
-    path: "/usertype",
-    element: <UserType />,
-  },
   {
     path: "/productlist",
     element: <ProductList />,
